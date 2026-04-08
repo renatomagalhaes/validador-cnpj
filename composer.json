@@ -1,0 +1,44 @@
+{
+    "name": "renatomagalhaes/validador-cnpj",
+    "description": "Biblioteca PHP pura, sem dependências, para validação e tipagem do CNPJ (Cadastro Nacional da Pessoa Jurídica) utilizando os recursos mais modernos do PHP 8.3+, com suporte ao novo formato alfanumérico (previsto para Julho de 2026) e ao formato legado (numérico).",
+    "keywords": [
+        "cnpj",
+        "alfanumérico",
+        "validator",
+        "validador",
+        "receita federal",
+        "brazil",
+        "laravel",
+        "hyperf",
+        "unoweb"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renato Magalhães",
+            "email": "renato@unoweb.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Unoweb\\Cnpj\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Unoweb\\Cnpj\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
